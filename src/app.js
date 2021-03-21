@@ -95,5 +95,5 @@ app.get("*", (req, res) => {
   });
 });
 app.listen(port, () => {
-  console.log(chalk.yellow(`Server on port ${port}`));
+  console.log(`Server on port ${port}`);
 });
